@@ -13,8 +13,10 @@ namespace Notes.Persistance
     public class NotesDbContext : DbContext, INotesDbContext
     {
         public DbSet<Note> Notes { get; set; }
-        public NotesDbContext(DbContextOptions<NotesDbContext> options) : base(options) { }
+        public NotesDbContext(DbContextOptions<NotesDbContext> options) : base(options){}
 
+        protected override void OnConfiguring(DbContextOptionsBuilder options)
+            => options.UseSqlite("Data Source=E:\\projects\\c#_projects\\Notes\\Notes.db");
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.ApplyConfiguration(new NoteConfiguration());

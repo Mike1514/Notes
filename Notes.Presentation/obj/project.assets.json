@@ -653,7 +653,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "MediatR": "12.1.1"
+          "MediatR": "12.1.1",
+          "MediatR.Extensions.Autofac.DependencyInjection": "11.2.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0"
         },
         "compile": {
           "bin/placeholder/Notes.Domain1.dll": {}
@@ -1527,6 +1529,8 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "MediatR >= 12.1.1",
+      "MediatR.Extensions.Autofac.DependencyInjection >= 11.2.0",
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 11.1.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.10",
       "Notes.Application >= 1.0.0",
       "Notes.Domain1 >= 1.0.0"
@@ -1539,9 +1543,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\projects\\c#_projects\\Notes\\Notes.Presentation\\Notes.Persistance.csproj",
-      "projectName": "Notes.Persistance",
-      "projectPath": "E:\\projects\\c#_projects\\Notes\\Notes.Presentation\\Notes.Persistance.csproj",
+      "projectUniqueName": "E:\\projects\\c#_projects\\Notes\\Notes.Presentation\\Notes.Persistence.csproj",
+      "projectName": "Notes.Persistence",
+      "projectPath": "E:\\projects\\c#_projects\\Notes\\Notes.Presentation\\Notes.Persistence.csproj",
       "packagesPath": "C:\\Users\\hitec\\.nuget\\packages\\",
       "outputPath": "E:\\projects\\c#_projects\\Notes\\Notes.Presentation\\obj\\",
       "projectStyle": "PackageReference",
@@ -1587,6 +1591,14 @@
           "MediatR": {
             "target": "Package",
             "version": "[12.1.1, )"
+          },
+          "MediatR.Extensions.Autofac.DependencyInjection": {
+            "target": "Package",
+            "version": "[11.2.0, )"
+          },
+          "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[11.1.0, )"
           },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",

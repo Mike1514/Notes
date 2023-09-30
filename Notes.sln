@@ -18,7 +18,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notes.Application", "Notes.
 		{CBC8D88B-3417-4774-A0B4-6D2ADDE49F72} = {CBC8D88B-3417-4774-A0B4-6D2ADDE49F72}
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notes.Persistance", "Notes.Presentation\Notes.Persistance.csproj", "{7A24F63D-F471-456D-B820-8A8B8510C93C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notes.Persistence", "Notes.Presentation\Notes.Persistence.csproj", "{7A24F63D-F471-456D-B820-8A8B8510C93C}"
 	ProjectSection(ProjectDependencies) = postProject
 		{E421788E-BC98-42D1-B310-409BA342A7F4} = {E421788E-BC98-42D1-B310-409BA342A7F4}
 	EndProjectSection

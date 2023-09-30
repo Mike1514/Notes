@@ -9,12 +9,14 @@
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="MediatR" Version="12.1.1" />
+    <PackageReference Include="MediatR.Extensions.Autofac.DependencyInjection" Version="11.2.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Notes.Application\Notes.Application.csproj" />
-    <ProjectReference Include="..\Notes.Presentation\Notes.Persistance.csproj" />
+    <ProjectReference Include="..\Notes.Presentation\Notes.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

@@ -753,7 +753,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "MediatR": "12.1.1"
+          "MediatR": "12.1.1",
+          "MediatR.Extensions.Autofac.DependencyInjection": "11.2.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0"
         },
         "compile": {
           "bin/placeholder/Notes.Domain1.dll": {}
@@ -762,20 +764,22 @@
           "bin/placeholder/Notes.Domain1.dll": {}
         }
       },
-      "Notes.Persistance/1.0.0": {
+      "Notes.Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "MediatR": "12.1.1",
+          "MediatR.Extensions.Autofac.DependencyInjection": "11.2.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.10",
           "Notes.Application": "1.0.0",
           "Notes.Domain1": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Notes.Persistance.dll": {}
+          "bin/placeholder/Notes.Persistence.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Notes.Persistance.dll": {}
+          "bin/placeholder/Notes.Persistence.dll": {}
         }
       }
     }
@@ -1991,18 +1995,20 @@
       "path": "../Notes.Domain1/Notes.Domain1.csproj",
       "msbuildProject": "../Notes.Domain1/Notes.Domain1.csproj"
     },
-    "Notes.Persistance/1.0.0": {
+    "Notes.Persistence/1.0.0": {
       "type": "project",
-      "path": "../Notes.Presentation/Notes.Persistance.csproj",
-      "msbuildProject": "../Notes.Presentation/Notes.Persistance.csproj"
+      "path": "../Notes.Presentation/Notes.Persistence.csproj",
+      "msbuildProject": "../Notes.Presentation/Notes.Persistence.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "MediatR >= 12.1.1",
+      "MediatR.Extensions.Autofac.DependencyInjection >= 11.2.0",
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 11.1.0",
       "Notes.Application >= 1.0.0",
-      "Notes.Persistance >= 1.0.0",
+      "Notes.Persistence >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -2042,8 +2048,8 @@
             "E:\\projects\\c#_projects\\Notes\\Notes.Application\\Notes.Application.csproj": {
               "projectPath": "E:\\projects\\c#_projects\\Notes\\Notes.Application\\Notes.Application.csproj"
             },
-            "E:\\projects\\c#_projects\\Notes\\Notes.Presentation\\Notes.Persistance.csproj": {
-              "projectPath": "E:\\projects\\c#_projects\\Notes\\Notes.Presentation\\Notes.Persistance.csproj"
+            "E:\\projects\\c#_projects\\Notes\\Notes.Presentation\\Notes.Persistence.csproj": {
+              "projectPath": "E:\\projects\\c#_projects\\Notes\\Notes.Presentation\\Notes.Persistence.csproj"
             }
           }
         }
@@ -2065,6 +2071,14 @@
           "MediatR": {
             "target": "Package",
             "version": "[12.1.1, )"
+          },
+          "MediatR.Extensions.Autofac.DependencyInjection": {
+            "target": "Package",
+            "version": "[11.2.0, )"
+          },
+          "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[11.1.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

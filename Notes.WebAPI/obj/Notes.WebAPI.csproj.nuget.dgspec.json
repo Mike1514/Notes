@@ -134,6 +134,14 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.1.1, )"
+            },
+            "MediatR.Extensions.Autofac.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.2.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
             }
           },
           "imports": [
@@ -156,12 +164,12 @@
         }
       }
     },
-    "E:\\projects\\c#_projects\\Notes\\Notes.Presentation\\Notes.Persistance.csproj": {
+    "E:\\projects\\c#_projects\\Notes\\Notes.Presentation\\Notes.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\c#_projects\\Notes\\Notes.Presentation\\Notes.Persistance.csproj",
-        "projectName": "Notes.Persistance",
-        "projectPath": "E:\\projects\\c#_projects\\Notes\\Notes.Presentation\\Notes.Persistance.csproj",
+        "projectUniqueName": "E:\\projects\\c#_projects\\Notes\\Notes.Presentation\\Notes.Persistence.csproj",
+        "projectName": "Notes.Persistence",
+        "projectPath": "E:\\projects\\c#_projects\\Notes\\Notes.Presentation\\Notes.Persistence.csproj",
         "packagesPath": "C:\\Users\\hitec\\.nuget\\packages\\",
         "outputPath": "E:\\projects\\c#_projects\\Notes\\Notes.Presentation\\obj\\",
         "projectStyle": "PackageReference",
@@ -207,6 +215,14 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.1.1, )"
+            },
+            "MediatR.Extensions.Autofac.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.2.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
@@ -265,8 +281,8 @@
               "E:\\projects\\c#_projects\\Notes\\Notes.Application\\Notes.Application.csproj": {
                 "projectPath": "E:\\projects\\c#_projects\\Notes\\Notes.Application\\Notes.Application.csproj"
               },
-              "E:\\projects\\c#_projects\\Notes\\Notes.Presentation\\Notes.Persistance.csproj": {
-                "projectPath": "E:\\projects\\c#_projects\\Notes\\Notes.Presentation\\Notes.Persistance.csproj"
+              "E:\\projects\\c#_projects\\Notes\\Notes.Presentation\\Notes.Persistence.csproj": {
+                "projectPath": "E:\\projects\\c#_projects\\Notes\\Notes.Presentation\\Notes.Persistence.csproj"
               }
             }
           }
@@ -288,6 +304,14 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.1.1, )"
+            },
+            "MediatR.Extensions.Autofac.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.2.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -1,12 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "LNOFQ4rVDWRkn0064lTwlY7B2U6kbLLzhdQOGRvTGjH7B+AV/+Sz+p3heL0pkk8qjLf39dCkmtIEy66n6LXDgw==",
+  "dgSpecHash": "LsowWPLYX2c4i//kcu36Dh+z37qelNqwLu/480clkWgSRnrE1Kk+bC3UGpwx7lm17YBVLrDOYQCizzpfn41jfA==",
   "success": true,
   "projectFilePath": "E:\\projects\\c#_projects\\Notes\\Notes.Domain1\\Notes.Domain1.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\hitec\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
     "C:\\Users\\hitec\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\hitec\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\hitec\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    "C:\\Users\\hitec\\.nuget\\packages\\mediatr.extensions.autofac.dependencyinjection\\11.2.0\\mediatr.extensions.autofac.dependencyinjection.11.2.0.nupkg.sha512",
+    "C:\\Users\\hitec\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\hitec\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\hitec\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.1.1 was resolved.",
+      "libraryId": "MediatR",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

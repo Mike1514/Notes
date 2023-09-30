@@ -4,12 +4,14 @@ using Notes.Application.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Notes.Application;
 using Notes.Persistance;
-
+using MediatR;
+using Notes.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
+//builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
 builder.Services.AddApplication();
-builder.Services.AddPersistance(builder.Configuration);
+builder.Services.AddPersistence(builder.Configuration);
 builder.Services.AddAutoMapper(config =>
 {
     config.AddProfile(new AssemblyMappingProfile(Assembly.GetExecutingAssembly()));

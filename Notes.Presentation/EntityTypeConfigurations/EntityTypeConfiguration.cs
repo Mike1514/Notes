@@ -9,7 +9,7 @@ using Notes.Domain1;
 
 namespace Notes.Persistance.EntityTypeConfigurations
 {
-    public class NoteConfiguration : IEntityTypeConfiguration<Note>
+    public class NoteConfiguration : IEntityTypeConfiguration<Note> 
     {
         public void Configure(EntityTypeBuilder<Note> builder)
         {
