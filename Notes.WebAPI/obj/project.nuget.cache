@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Zrr5p7OoUQfc8KZ3JDtyiNK1IX2Dvw67ubNZISab1wQ/hqVajoF6ayjcGvtuypd0UvuOYXe+IFa4p9kFZCtfLA==",
+  "dgSpecHash": "3M5ywLAqIekhesLtYRSxfrmQwfHfeDR7XuM6h79cITxs8GjNDSI1O1Vrho+WtU1PXZsSJqc69TPSE/OlXdu04w==",
   "success": true,
   "projectFilePath": "E:\\projects\\c#_projects\\Notes\\Notes.WebAPI\\Notes.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hitec\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
     "C:\\Users\\hitec\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\hitec\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\hitec\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
+    "C:\\Users\\hitec\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.7.1\\fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
     "C:\\Users\\hitec\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\hitec\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\hitec\\.nuget\\packages\\mediatr.extensions.autofac.dependencyinjection\\11.2.0\\mediatr.extensions.autofac.dependencyinjection.11.2.0.nupkg.sha512",

@@ -19,7 +19,7 @@ namespace Notes.WebAPI.Controllers
         {
             var query = new GetNoteListQuery
             {
-                UsertId = UserId
+                UserId = UserId
 
             };                
             var vm =  await Mediator.Send(query);
