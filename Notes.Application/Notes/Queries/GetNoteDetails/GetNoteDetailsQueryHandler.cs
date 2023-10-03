@@ -7,7 +7,7 @@ using AutoMapper;
 using MediatR;
 using MediatR.Pipeline;
 using Microsoft.EntityFrameworkCore;
-using Notes.Application.Common.Exeptions;
+using Notes.Application.Common.Exceptions;
 using Notes.Application.Interfaces;
 using Notes.Domain1;
 
@@ -28,7 +28,7 @@ namespace Notes.Application.Notes.Queries.GetNoteDetails
                 .FirstOrDefaultAsync(note => note.NoteId == request.NoteId, cancellationToken);
             if (entity == null || entity.UserId != request.UserId)
             {
-                throw new NotFoundExeption(nameof(Note), request.NoteId);
+                throw new NotFoundException(nameof(Note), request.NoteId);
             }
             return _mapper.Map<NoteDetailsVm>(entity);
         }

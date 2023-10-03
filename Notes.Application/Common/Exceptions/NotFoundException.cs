@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Notes.Application.Common.Exeptions
+namespace Notes.Application.Common.Exceptions
 {
-    public class NotFoundExeption : Exception
+    public class NotFoundException : Exception
     {
-        public NotFoundExeption(string name, object key) 
+        public NotFoundException(string name, object key) 
             : base($"Entity\"{name}\" ({key}) not found" ){}
 
     }

@@ -6,6 +6,7 @@ using Notes.Application;
 using Notes.Persistance;
 using MediatR;
 using Notes.Persistence;
+using Notes.WebAPI.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
@@ -50,6 +51,8 @@ using (var scope = builder.Services.BuildServiceProvider().CreateScope())
     {
     }
 }
+
+app.UseCustomExceptionHandler();
 
 app.UseHttpsRedirection();
 
